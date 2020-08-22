@@ -21,6 +21,15 @@
     },
     {
       "path": "./projects/another-application/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/common-components/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/common-components/tsconfig.spec.json"
+    },
+    {
+      "path": "./tsconfig.server.json"
     }
 ]
 }

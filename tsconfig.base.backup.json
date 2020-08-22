@@ -16,7 +16,10 @@
       "dom"
     ],
     "paths": {
-      "common-components": ["projects/common-components/src/public-api.ts"]
+      "common-components": [
+        "dist/common-components/common-components",
+        "dist/common-components"
+      ]
     }
   }
 }
