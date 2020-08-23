@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve another-application",
+    "start": "ng serve",
     "build": "ng build",
     "build-lib": "ng build common-components",
     "test": "ng test",

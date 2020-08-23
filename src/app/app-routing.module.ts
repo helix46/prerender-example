@@ -8,6 +8,13 @@ const routes: Routes = [
       import('./shared-lib/shared-lib.module').then((m) => m.SharedLibModule),
   },
   {
+    path: 'another-shared-page',
+    loadChildren: () =>
+      import('./another-shared-lib/another-shared-lib.module').then(
+        (m) => m.AnotherSharedLibModule
+      ),
+  },
+  {
     path: '',
     loadChildren: () =>
       import('./home-page/home-page.module').then((m) => m.HomePageModule),
